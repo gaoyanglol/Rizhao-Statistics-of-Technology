@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+@import url(style.css);
+
+body {
+  height: auto;
+  background: #f2f5f7;
+}
+
+.headBarContent a {
+  color: #2087e6;
+  line-height: 34px;
+}
+.headBarContent a  img,
+.headBarContent a  span {
+  border: 0;
+  vertical-align: middle;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.headBarContent a:hover img {
+  -webkit-transform: translate(-5px,0);
+  -moz-transform: translate(-5px,0);
+  -o-transform: translate(-5px,0);
+  transform: translate(-5px,0);
+}
+.tableContainer {
+  width: 960px;
+  margin: auto;
+  padding: 94px 120px 0; 
+}
+.tableWrap {
+  padding: 25px 49px;
+  background: #fff;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+}
+.tableWrap hr {
+  margin: 0 0 25px;
+  border: .5px dashed #d6dce0;
+}
+.tableContainer h1 {
+  margin: 0 0 25px;
+  color:#75869c;
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+.tableContainer h2 {
+  margin: 0 0 25px;
+  text-align: center;
+  color: #2087e6;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 600;
+}
+.tableContainer input,
+.tableContainer select,
+.tableContainer textarea {
+  outline: none;
+  width: 100%;
+  height: 38px;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+  padding: 5px 8px;
+  box-sizing: border-box;
+  line-height: 26px;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  color: #8897ac;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.tableContainer input:hover,
+.tableContainer select:hover,
+.tableContainer textarea:hover {
+  border: 1px solid #b9bec1;
+}
+.tableContainer input:focus,
+.tableContainer select:focus,
+.tableContainer textarea:focus {
+  border: 1px solid #2087e6;
+  box-shadow: 0 0 2px #2087e6;
+}
+.tableContainer select {
+  cursor: pointer;
+  background: url(../image/dropdown-arrow.png) no-repeat;
+  background-position: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+}
+.tableContainer select:hover {
+  background-image: url(../image/dropdown-arrow-hover.png);
+}
+
+.tableContainer td {
+  padding: 0 20px 13px 0;
+}
+.tableContainer span {
+  display: block;
+  margin-bottom: 10px;
+  color: #75869c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+}
+.tableContainer textarea {
+  height: 85px;
+  resize: none;
+  line-height: 1.2;
+
+}
+.tableCommon {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 12px;
+}
+.avatarWrap {
+  width: 135px;
+  height: 191px;
+  text-align: right;
+}
+.avatar-img {
+  width: 135px;
+  height: 154px;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background: url(../image/avatar-default.png) no-repeat center;
+}
+.situations td {
+  padding: 0 0 13px; 
+}
+#resetBtn {
+  padding: 0;
+  cursor: pointer;
+  color: #2087e6;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  border: none;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+#submitBtn { 
+  margin-left: 40px;
+  padding: 12px 40px;
+  border-radius: 3px;
+  border: none;
+  background: #2087e6;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+#submitBtn:hover {
+  background: #2c91f0;
+}
+.tableCommon td.tdRight {
+  padding: 0 0 13px;
+}
+.footer {
+  position: relative;
+  margin-top: 35px;
+}
+.uploadWrap {
+  margin-top: 11px;
+}
+.uploadWrap label {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+  color: #75869c;
+  font-size: 14px;
+  background: #f2f5f7;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 25px;
+}
+.uploadWrap button {
+  outline: none;
+  border: none;
+  width: 65px;
+  height: 25px;
+  background: #c0ddf7;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #2087e6;
+  vertical-align: top;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  cursor: pointer
+}
+#avatar {
+  position: absolute;
+  left: 0;
+  font-size: 100px;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}

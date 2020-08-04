@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@import url(style.css);
+
+body {
+  height: 100%;
+  background: #f7fcff;
+}
+.headBarContent a img, .headBarContent a span {
+  border: 0;
+  vertical-align: middle;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.headBarContent a {
+  color: #2087e6;
+  line-height: 34px;
+}
+.headBarContent a:hover img {
+  -webkit-transform: translate(-5px,0);
+  -moz-transform: translate(-5px,0);
+  -o-transform: translate(-5px,0);
+  transform: translate(-5px,0);
+}
+.footer {
+  background: #fff;
+  margin-top: 35px;
+}
+.positionFix {
+  position: relative;
+}
+.links p span {
+  color: #394458;
+}
+.links p span:hover {
+  color: #29364d;
+}
+.links p span:nth-child(1) {
+  color: #29364d;
+}
+.webinfo p {
+  color: #29364d;
+}
+.container {
+  width: 840px;
+  margin: auto;
+  padding: 142px 8px 0;
+}
+.enterprise-entrance,
+.expert-entrance {
+  position: relative;
+  width: 280px;
+  height: 340px;
+  padding: 30px 50px;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+}
+.enterprise-entrance > div,
+.expert-entrance > div {
+  position: relative;
+  height: 100%;
+}
+.container h2 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.enterprise-entrance {
+  background: #fff url(../image/enterprise-entrance-bg.png) no-repeat center 80px;
+  color: #b38de1;
+  float: left;
+}
+
+.expert-entrance {
+  background: #fff url(../image/expert-entrance-bg.png) no-repeat center 80px;
+  color: #4dc2eb;
+  float: right;
+}
+.entrance-btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.entrance-btn a {
+  display: block;
+  width: 280px;
+  height: 42px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 42px;
+}
+.enterprise-entrance .entrance-btn a {
+  background: url(../image/enterprise-entrance-btn.png) no-repeat;
+}
+.expert-entrance .entrance-btn a {
+  background: url(../image/expert-entrance-btn.png) no-repeat;
+}
+.enterprise-entrance .entrance-btn a:hover {
+  background-image: url(../image/enterprise-entrance-btn-hover.png);
+}
+.expert-entrance .entrance-btn a:hover {
+  background-image: url(../image/expert-entrance-btn-hover.png);
+}

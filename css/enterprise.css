@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+
+body {
+  height: auto;
+  background: #f2f5f7;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 14px;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.headBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 73px;
+  z-index: 1;
+  background: url(../image/topBar-bg.png) repeat-x;
+}
+.headBarContent {
+  width: 1184px;
+  height: 34px;
+  margin: auto;
+  padding: 17px 8px;
+  text-align: right;
+}
+.headBarContent a {
+  color: #2087e6;
+  line-height: 34px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.headBarContent a  img,
+.headBarContent a  span {
+  border: 0;
+  vertical-align: middle;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.headBarContent a:hover img {
+  -webkit-transform: translate(-5px,0);
+  -moz-transform: translate(-5px,0);
+  -o-transform: translate(-5px,0);
+  transform: translate(-5px,0);
+}
+.tableContainer {
+  width: 960px;
+  margin: auto;
+  padding: 94px 120px 0; 
+}
+
+.tableContainer h1 {
+  margin: 0 0 25px;
+  color:#75869c;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 700;
+}
+.tableContainer h2 {
+  margin: 0 0 25px;
+  text-align: left;
+  color: #2087e6;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 600;
+}
+.tableContainer input,
+.tableContainer select,
+.tableContainer textarea {
+  outline: none;
+  width: 100%;
+  height: 38px;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+  padding: 5px 8px;
+  box-sizing: border-box;
+  line-height: 26px;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  color: #8897ac;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.tableContainer input:hover,
+.tableContainer select:hover,
+.tableContainer textarea:hover {
+  border: 1px solid #b9bec1;
+}
+.tableContainer input:focus,
+.tableContainer select:focus,
+.tableContainer textarea:focus {
+  border: 1px solid #2087e6;
+  box-shadow: 0 0 2px #2087e6;
+}
+.tableContainer select {
+  cursor: pointer;
+  background: url(../image/dropdown-arrow.png) no-repeat;
+  background-position: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+}
+.tableContainer select:hover {
+  background-image: url(../image/dropdown-arrow-hover.png);
+}
+
+.tableContainer td {
+  padding: 0 20px 13px 0;
+}
+.tableContainer span {
+  display: block;
+  margin-bottom: 10px;
+  color: #75869c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+}
+.tableContainer textarea {
+  height: 85px;
+  resize: none;
+}
+.footer {
+  position: relative;
+  margin-top: 35px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 120px;
+  background: #464a4e;
+  border-top: 10px solid #e5e7eb;
+}
+.links {
+  margin-top: 15px;
+}
+.links a {
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+}
+.links p {
+  width: 1184px;
+  margin: 0 auto 3px;
+  padding: 0 8px; 
+  color: #fff;
+  text-align: center;
+}
+.links p span {
+  display: inline-block;
+  width: 120px;
+  margin: 0 5px;
+  color: #cfcfcf;
+}
+.links p span:hover {
+  color: #fff;
+}
+.links p span:nth-child(1) {
+  color: #fff;
+}
+.webinfo {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.webinfo p {
+  width: 1184px;
+  margin: 0 auto 5px;
+  padding: 0 8px; 
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+.webinfo p span {
+  margin: 0 18px;
+}
+.webinfo p span a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+#combo > div {
+  width: 40% !important;
+  background: #fff;
+}
+#combo > div:first-child > input {
+  background: url(../image/dropdown-arrow.png) no-repeat;
+  background-position: right;
+}
+#combo > div:first-child > input:hover {
+  background-image: url(../image/dropdown-arrow-hover.png);
+}
+#combo img {
+  display: none;
+}
+#combo input {
+  width: 100% !important;
+}
+#main {
+  padding: 25px 49px;
+  margin-top: 25px;
+  background: #fff;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+}
+#main hr {
+  margin: 0 0 25px;
+  border: .5px dashed #d6dce0;
+}
+#main > div > div > form {
+  padding: 0 !important;
+}

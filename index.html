@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>欢迎进入日照市科技大数据平台</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="headBar">
+    <div class="headBarContent clearfix">
+      <img src="./image/logo.png" alt="logo" style="float: left">
+      <a href="./login.html" class="sign-in">登录</a>
+      <a href="./login.html" class="sign-up">注册</a>
+    </div>
+  </div>
+  <div class="navBar">
+    <div class="navBarContent">
+      <ul class="clearfix">
+        <li>
+          <a href="javascript:;" onclick="toggleNav(this,1)" class="icons" id="policy">
+            <span>科技政策</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="icons" onclick="toggleNav(this,2)" id="achievement">
+            <span>成果发布</span>
+          </a>
+        </li>
+        <li class="selected">
+          <a href="javascript:;" class="icons show" onclick="toggleNav(this,3)" id="enterprise">
+            <span>企业注册</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="icons" onclick="toggleNav(this,4)" id="expert">
+            <span>专家注册</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="icons" onclick="toggleNav(this,5)" id="cooperation">
+            <span>科技合作</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="track">
+    <div id="locator" style="left: 50%; visibility: visible;"></div>
+  </div>
+  <div class="main" id="tag-main" style="visibility: visible;">
+    <div class="content-wrapper" id="policy-wrapper">科技政策</div>
+    <div class="content-wrapper" id="achievement-wrapper">成果发布</div>
+    <div class="content-wrapper show" id="enterprise-wrapper">
+      <!-- 企业注册登录后面板 -->
+      <ul class="enterprise-nav clearfix">
+        <li class="with-border">
+          <a href="#">
+            <div class="enterprise-nav-mlgl"></div>
+            <span>名录管理</span>
+          </a>
+        </li>
+        <li class="with-border">
+            <a href="#">
+              <div class="enterprise-nav-bbtj"></div>
+              <span>报表统计</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              <div class="enterprise-nav-zlgl"></div>
+              <span>专利管理</span>
+            </a>
+        </li>
+      </ul>
+      <!-- 企业注册登录后面板 -->
+    </div>
+    <div class="content-wrapper" id="expert-wrapper">
+      <div class="info">
+        <h2>专家注册入口</h2>
+        <a href="./expert.html">进入</a>
+      </div>
+    </div>
+    <div class="content-wrapper" id="cooperation-wrapper">
+      <div class="info">
+        <h2>科技合作入口</h2>
+        <a href="#">进入</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="links">
+      <p>
+        <span>友情链接：</span>
+        <span><a href="#">济南统计信息网</a></span>
+        <span><a href="#">青岛统计信息网</a></span>
+        <span><a href="#">淄博统计信息网</a></span>
+        <span><a href="#">潍坊统计信息网</a></span>
+        <span><a href="#">烟台统计信息网</a></span>
+        <span><a href="#">济宁统计信息网</a></span>
+        <span><a href="#">临沂统计信息网</a></span>
+      </p>
+      <p>
+        <span></span>
+        <span><a href="#">菏泽统计信息网</a></span>
+        <span><a href="#">威海统计信息网</a></span>
+        <span><a href="#">莱芜统计信息网</a></span>
+        <span><a href="#">德州统计信息网</a></span>
+        <span><a href="#">聊城统计信息网</a></span>
+        <span><a href="#">滨州统计信息网</a></span>
+        <span><a href="#">枣庄统计信息网</a></span>
+      </p>
+    </div>
+    <div class="webinfo">
+      <p>
+        <span>版权所有：日照市统计局</span>
+        <span>CopyRight&nbsp;2017-2018&nbsp;All&nbsp;Rights&nbsp;Reserved</span>
+        <span>地址：日照市泰安路33号供水大厦14、15层</span>
+      </p>
+      <p>
+        <span>电话：0633-2186080</span>
+        <span>传真：0633-2186081</span>
+        <span>技术支持：<a href="//www.wbsoft.com.cn">维邦软件</a></span>
+      </p>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>

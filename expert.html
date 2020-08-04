@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>专家注册-欢迎进入日照市科技大数据平台</title>
+  <link rel="stylesheet" href="./css/expert.css">
+</head>
+<body>
+  <div class="headBar">
+    <div class="headBarContent clearfix">
+      <img src="./image/logo.png" alt="logo" style="float: left">
+      <a href="./index.html">
+        <img src="./image/backward.png" alt="icon">
+        <span>返回首页</span>
+      </a>
+    </div>
+  </div>
+  <div class="tableContainer">
+      <div class="tableWrap">
+        <form action="" method="">
+          <h2>《日照市科技专家登记表》</h2>
+          <hr>
+          <table class="tableCommon identity">
+            <colgroup>
+              <col width="330px">
+              <col width="330px">
+              <col width="200px">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td>
+                  <span>姓名</span>
+                  <input type="text" name="username" id="username">
+                </td>
+                <td>
+                  <span>性别</span>
+                  <select name="sex" id="sex">
+                    <option value="empty">&nbsp;</option>
+                    <option value="male">男</option>
+                    <option value="female">女</option>
+                  </select>
+                </td>
+                <td rowspan="3" style="padding: 0 0 13px 65px">
+                  <span>照片</span>
+                  <div class="avatarWrap">
+                    <form action="" method="POST">
+                      <div class="avatar-img"></div>
+                      <div class="uploadWrap">
+                        <label>
+                          选择
+                          <input type="file" name="avatar" id="avatar" accept="image/*">
+                        </label>
+                        <button type="submit">上传</button>
+                      </div>
+                    </form>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>出生年月</span>
+                  <input type="date" name="birthday" id="birthday">
+                </td>
+                <td>
+                  <span>民族</span>
+                  <input type="text" name="race" id="race">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>参加工作时间</span>
+                  <input type="text" name="workdate" id="workdate">
+                </td>
+                <td>
+                  <span>政治面貌</span>
+                  <input type="text" name="political" id="political">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <table class="tableCommon">
+            <colgroup>
+              <col width="220px">
+              <col width="220px">
+              <col width="220px">
+              <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td colspan="2">
+                  <span>毕业院校</span>
+                  <input type="text" name="school" id="school">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>所学专业</span>
+                  <input type="text" name="major" id="major">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <span>工作单位</span>
+                  <input type="text" name="company" id="company">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>所在区县</span>
+                  <select name="district" id="district">
+                    <option value="empty">&nbsp;</option>
+                    <option value="dg">东港区</option>
+                    <option value="ls">岚山区</option>
+                    <option value="jx">莒县</option>
+                    <option value="wlx">五莲县</option>
+                    <option value="kf">开发区</option>
+                    <option value="gx">高新区</option>
+                    <option value="sht">山海天</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <span>从事专业</span>
+                  <select name="job" id="job">
+                    <option value="empty">&nbsp;</option>
+                    <option value="jdgc">机电工程</option>
+                    <option value="dzgc">电子工程</option>
+                    <option value="hggc">化工工程</option>
+                    <option value="qggc">轻工工程</option>
+                    <option value="jtgc">交通工程</option>
+                    <option value="fzgc">纺织工程</option>
+                    <option value="jzgc">建筑工程</option>
+                    <option value="sygc">医药工程</option>
+                    <option value="jcgc">建材工程</option>
+                    <option value="hbgc">环保工程</option>
+                    <option value="lygc">林业工程</option>
+                    <option value="nygc">农业</option>
+                    <option value="xmsy">畜牧兽医</option>
+                    <option value="scgc">水产</option>
+                    <option value="wsgc">卫生</option>
+                    <option value="zygc">中医</option>
+                    <option value="zrkx">自然科学</option>
+                    <option value="shkx">社会科学</option>
+                    <option value="jjgc">经济</option>
+                    <option value="kjgc">会计</option>
+                  </select>
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>职务</span>
+                  <input type="text" name="post" id="post">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>技术职称</span>
+                  <input type="text" name="title" id="title">
+                </td>
+                <td>
+                  <span>职称评定时间</span>
+                  <input type="date" name="titledate" id="titledate">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>职称证书编号</span>
+                  <input type="text" name="titlenum" id="titlenum">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>注册执业资格</span>
+                  <input type="text" name="reg" id="reg">
+                </td>
+                <td>
+                  <span>取得时间</span>
+                  <input type="date" name="regdate" id="regdate">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>执业资格证书编号</span>
+                  <input type="text" name="regnum" id="regnum">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <span>身份证号</span>
+                  <input type="text" name="idnum" id="idnum">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>移动电话</span>
+                  <input type="text" name="phone" id="phone">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <span>通讯地址</span>
+                  <input type="text" name="address" id="address">
+                </td>
+                <td colspan="2" class="tdRight">
+                  <span>单位电话</span>
+                  <input type="text" name="tel" id="tel">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <table class="tableCommon situations">
+            <tbody>
+              <tr>
+                <td>
+                  <span>主要工作经历情况</span>
+                  <textarea name="experience" id="experience"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>专利情况</span>
+                  <textarea name="patent" id="patent"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>成果、项目及代表论文、著作情况
+                  </span>
+                  <textarea name="projects" id="projects"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>推荐单位意见
+                  </span>
+                  <textarea name="suggestion" id="suggestion"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <div style="text-align: right">
+            <button id="resetBtn" type="reset">重置</button>
+            <button id="submitBtn" type="submit">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="links">
+        <p>
+          <span>友情链接：</span>
+          <span><a href="#">济南统计信息网</a></span>
+          <span><a href="#">青岛统计信息网</a></span>
+          <span><a href="#">淄博统计信息网</a></span>
+          <span><a href="#">潍坊统计信息网</a></span>
+          <span><a href="#">烟台统计信息网</a></span>
+          <span><a href="#">济宁统计信息网</a></span>
+          <span><a href="#">临沂统计信息网</a></span>
+        </p>
+        <p>
+          <span></span>
+          <span><a href="#">菏泽统计信息网</a></span>
+          <span><a href="#">威海统计信息网</a></span>
+          <span><a href="#">莱芜统计信息网</a></span>
+          <span><a href="#">德州统计信息网</a></span>
+          <span><a href="#">聊城统计信息网</a></span>
+          <span><a href="#">滨州统计信息网</a></span>
+          <span><a href="#">枣庄统计信息网</a></span>
+        </p>
+      </div>
+      <div class="webinfo">
+        <p>
+          <span>版权所有：日照市统计局</span>
+          <span>CopyRight&nbsp;2017-2018&nbsp;All&nbsp;Rights&nbsp;Reserved</span>
+          <span>地址：日照市泰安路33号供水大厦14、15层</span>
+        </p>
+        <p>
+          <span>电话：0633-2186080</span>
+          <span>传真：0633-2186081</span>
+          <span>技术支持：<a href="//www.wbsoft.com.cn">维邦软件</a></span>
+        </p>
+      </div>
+    </div>
+</body>
+</html>

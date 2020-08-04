@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+@import url(expert.css);
+
+body {
+  position: static;
+  background: #f2f5f7;
+}
+.footer {
+  position: absolute;
+  background: #fff;
+}
+.positionFix {
+  position: relative;
+}
+.links p span {
+  color: #394458;
+}
+.links p span:hover {
+  color: #29364d;
+}
+.links p span:nth-child(1) {
+  color: #29364d;
+}
+.webinfo p {
+  color: #29364d;
+}
+.container {
+  width: 1184px;
+  margin: auto;
+  padding: 142px 8px 0;
+}
+.login-pic {
+  margin-left: 50px;
+}
+.login-wrap {
+  width: 418px;
+  background: #fff;
+  border: 1px solid #d6dce0;
+  border-radius: 3px;
+  margin-right: 50px;
+  float: right;
+}
+.tab {
+  width: 100%;
+}
+.br-tl {
+  border-top-left-radius: 3px;
+}
+.br-tr {
+  border-top-right-radius: 3px;
+}
+.userType {
+  display: block;
+  font-size: 16px;
+  color: #75869c;
+  line-height: 1;
+  padding: 16px 72px;
+  background: #f2f5f7;
+  text-align: center;
+  float: left;
+  border-bottom: 1px solid #d6dce0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.tabed {
+  background: #fff;
+  border-bottom-color: #fff;
+  color: #2087e6;
+  font-weight: bold;
+}
+.br-tl.tabed {
+  border-right: 1px solid #fff;
+}
+.br-tl.untabed {
+  border-right: 1px solid #d6dce0;
+}
+.br-tr.tabed {
+  border-left: 1px solid #fff;
+}
+.br-tr.untabed {
+  border-left: 1px solid #d6dce0;
+}
+.login-content {
+  padding: 35px;
+}
+.login-content input {
+  outline: none;
+  box-sizing: border-box;
+  height: 38px;
+  border-radius: 3px;
+  border: 1px solid #d6dce0;
+  padding: 5px 8px;
+  margin-bottom: 20px;
+  line-height: 26px;
+  font-family: 'Helvetica', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  color: #8897ac;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.login-content input:hover {
+  border: 1px solid #b9bec1;
+}
+.login-content input:focus {
+  border: 1px solid #2087e6;
+  box-shadow: 0 0 2px #2087e6;
+}
+.login-content input[name=username],
+.login-content input[name=userpsw] {
+  width: 100%;
+}
+.login-content input[name=qrcode] {
+  width: 190px;
+}
+.login-content ::-webkit-input-placeholder {
+  color: #8897ac;
+}
+.login-content :-moz-placeholder {
+  color: #8897ac;
+}
+.login-content ::-moz-placeholder {
+  color: #8897ac;
+}
+.login-content :-ms-input-placeholder {
+  color: #8897ac;
+}
+.login-content label {
+  color: #2087e6;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.login-content label input {
+  width: 14px;
+  height: 14px;
+  vertical-align: text-top;
+  margin: 1px 4px 0 0;
+  padding: 0;
+  line-height: 1;
+}
+.qrcode {
+  width: 100px;
+  height: 38px;
+  background: #f2f5f7;
+  float: right;
+}
+.login-content button {
+  width: 100%;
+  background: #2087e6;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  border: none;
+  line-height: 1;
+  margin: 20px 0;
+  padding: 11px 0;
+  cursor: pointer;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.login-content a {
+  color: #2087e6;
+  line-height: 1;
+}

@@ -1,0 +1,70 @@
+.enterprise-nav {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.enterprise-nav li {
+  box-sizing: border-box;
+  float: right;
+  width: 33.3333%;
+  height: 100%;
+}
+.enterprise-nav .with-border {
+  float: left;
+}
+.enterprise-nav li a {
+  position: relative;
+  display: block;
+  height: 100%;
+  padding: 75px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.enterprise-nav li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  top: 110px;
+  left: 50%;
+  background: rgba(255, 255, 255, .3) no-repeat 50%;
+  transform: translateX(-50%) scale(1,1);
+  transition: all .6s ease;
+}
+.enterprise-nav li a:hover:before {
+  transform: scale(10,10);
+}
+.enterprise-nav .with-border a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 75px;
+  bottom: 75px;
+  right: 0;
+  width: 1px;
+  background: #fff;
+}
+.enterprise-nav li a div {
+  height: 100px;
+  margin: 35px 0 40px;
+}
+.enterprise-nav li a span {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: .4em;
+  text-align: center;
+}
+.enterprise-nav-mlgl {
+  background: url(../image/enterprise-mlgl.png) no-repeat center;
+}
+.enterprise-nav-bbtj {
+  background: url(../image/enterprise-bbtj.png) no-repeat center;
+}
+.enterprise-nav-zlgl {
+  background: url(../image/enterprise-zlgl.png) no-repeat center;
+}
